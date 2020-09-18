@@ -49,8 +49,8 @@ window.onresize = () => map.resize(window.innerWidth, window.innerHeight);
 const omvDataSource = new harp.OmvDataSource({
    baseUrl: "https://xyz.api.here.com/tiles/herebase.02",
    apiFormat: harp.APIFormat.XYZOMV,
-   styleSetName: "harp.APIFormat.XYZSpace",
-   authenticationCode: 'ACbs-cqcFI4FlPRLK_VF1co',
+   styleSetName: "tilezen",
+   authenticationCode: 'YOUR-STUDIO-TOKEN HERE',
 });
 map.addDataSource(globalRailroads).then(() => {
     const styles = [
